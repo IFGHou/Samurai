@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=;
+Encoding=UTF-8
+Exec=/home/samurai/tools/w3af-gui.sh
+Hidden=false
+Name=w3af GUI
+Name[en_US]=w3af GUI
+Terminal=false
+Type=Application
+Version=1.0
+Icon=/usr/bin/samurai/w3af/core/ui/gtkUi/data/w3af_logo.png

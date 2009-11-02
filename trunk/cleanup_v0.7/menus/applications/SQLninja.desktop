@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=;
+Encoding=UTF-8
+Exec=gnome-terminal --window-with-profile=SQLninja
+Hidden=false
+Icon=gnome-brightness-applet
+Icon[en_US]=gnome-brightness-applet
+Name=SQLninja
+Name[en_US]=SQLninja
+Terminal=true
+Type=Application
+Version=1.0

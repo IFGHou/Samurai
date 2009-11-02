@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=true
+Name[en_US]=Sqlmap SVN update
+Exec=/usr/bin/samurai_svn/scripts/svn_sqlmap.sh
+Comment[en_US]=Update to the latest Sqlmap SVN revision
+Name=Sqlmap SVN update
+Comment=Update to the latest Sqlmap SVN revision
+Hidden=false
+Icon=/usr/share/icons/gnome/scalable/apps/zen-icon.svg
+Icon[en_US]=/usr/share/icons/gnome/scalable/apps/zen-icon.svg

@@ -1,0 +1,19 @@
+
+- Run cleanup_v0.7.sh first (using sudo) to perform the required clean up 
+  tasks under:
+  /usr/bin/samurai, 
+  /home/samurai/tools, and 
+  the Applications menus:
+
+$ sudo ./cleanup_v0.7.sh
+
+- *** You need to log out for the gnome-terminal profiles to be populated ***
+
+- After the clean up and logging out, you can install the new SVN 
+  infrastructure by running the following script:
+
+$ sudo ./install_samurai_svn.sh
+
+- Do not forget to release disk space by deleting the current directory,
+  obtained from SVN, as it is not required anymore.
+

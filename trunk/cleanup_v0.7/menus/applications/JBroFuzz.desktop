@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=;
+Encoding=UTF-8
+Exec=/home/samurai/tools/jbrofuzz.sh
+Hidden=false
+Icon=typing-monitor
+Icon[en_US]=typing-monitor
+Name=JBroFuzz
+Name[en_US]=JBroFuzz
+Terminal=false
+Type=Application
+Version=1.0
