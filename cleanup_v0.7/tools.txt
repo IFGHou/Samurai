@@ -1,0 +1,49 @@
+#
+# List of web-app testing tools installed in Samurai WTF v0.7
+# -------------------------------------------------------------
+#
+# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
+# Date: October 2009
+# Version: 0.1
+#
+# Alphabetically ordered
+#
+# NAME			VERSION		Java/CLI/GUI/DIR
+# -----			--------	-----------------
+
+BurpSuite		v1.2		java
+CeWL			v2.0		CLI
+DirBuster		v0.10		java
+Durzosploit		-		CLI
+Fierce			v1.0.3		CLI
+Flare (RatProxy)	v0.6		CLI
+Gooscan			-		CLI
+GPScan			v1.0		CLI
+Grendel-Scan		v1.0		java
+JBroFuzz		v1.4		java
+JWUserGen		v2.1.1		CLI
+JWUserGenYahoo		v1.0		CLI
+Laudanum		v0.1		DIR
+Maltego CE		v2.0.2		GUI
+Nikto			v2.03/2.04	CLI
+Paros			v3.2.13		java
+ProxyStrike		v2.2		GUI
+RatProxy		v1.51-beta	CLI
+SQLBrute		v1.0		CLI
+SQLmap			v0.7		CLI
+SQLninja		v.0.2.3-r1	CLI
+w3af			1.1 (SVN r2979)	CLI & GUI
+Wapiti			v1.1.6		CLI
+WebScarab		20070504-1631	java
+WebShag			v1.00		GUI
+Yokoso			v0.1		DIR
+Zenmap (nmap)		v5.00		GUI
+
+#
+# All tools have a Gnome menu file under the Applications menu:
+# - For java & GUI & DIR tools, it points to its launch script
+# - For CLI tools it points to its gnome-terminal profile
+# All tools have a launch srcipt under /home/samurai/tools, except Zenmap (OS)
+# CLI tools have a gnome-terminal profile, except w3af:
+# - the profile points to its launch script
+#

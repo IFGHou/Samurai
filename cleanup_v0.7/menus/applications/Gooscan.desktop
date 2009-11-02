@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=;
+Encoding=UTF-8
+Exec=gnome-terminal --window-with-profile=Gooscan
+Hidden=false
+Icon=gnome-panel-launcher
+Icon[en_US]=gnome-panel-launcher
+Name=Gooscan
+Name[en_US]=Gooscan
+Terminal=false
+Type=Application
+Version=1.0

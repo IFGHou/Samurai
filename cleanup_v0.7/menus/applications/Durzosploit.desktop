@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=;
+Encoding=UTF-8
+Exec=gnome-terminal --window-with-profile=Durzosploit
+Hidden=false
+Icon=gnome-terminal
+Icon[en_US]=gnome-terminal
+Name=Durzosploit
+Name[en_US]=Durzosploit
+Terminal=true
+Type=Application
+Version=1.0

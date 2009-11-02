@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=true
+Name[en_US]=w3af SVN update
+Exec=/usr/bin/samurai_svn/scripts/svn_w3af.sh
+Comment[en_US]=Update to the latest w3af SVN revision
+Name=w3af SVN update
+Comment=Update to the latest w3af SVN revision
+Hidden=false
+Icon=/usr/bin/samurai/w3af/core/ui/gtkUi/data/w3af_logo.png
+Icon[en_US]=/usr/bin/samurai/w3af/core/ui/gtkUi/data/w3af_logo.png

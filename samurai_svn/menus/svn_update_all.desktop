@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=true
+Name[en_US]=Update all SVN/CVS tools
+Exec=/usr/bin/samurai_svn/bin/svn_update_all.sh
+Comment[en_US]=Script to update all tools from SVN/CVS
+Name=Update all SVN/CVS tools
+Comment=Script to update all tools from SVN/CVS
+Icon[en_US]=gnome-panel-launcher
+Icon=gnome-panel-launcher

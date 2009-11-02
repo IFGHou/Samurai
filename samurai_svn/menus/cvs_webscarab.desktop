@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=true
+Name[en_US]=Webscarab CVS update (*)
+Exec=/usr/bin/samurai_svn/scripts/cvs_webscarab.sh
+Comment[en_US]=Update to the latest Webscarab CVS revision
+Icon[en_US]=/usr/share/icons/gnome/scalable/apps/zen-icon.svg
+Name=Webscarab CVS update (*)
+Comment=Update to the latest Webscarab CVS revision
+Icon=/usr/share/icons/gnome/scalable/apps/zen-icon.svg

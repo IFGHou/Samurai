@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=;
+Encoding=UTF-8
+Exec=/home/samurai/tools/paros.sh
+Hidden=false
+Icon=gnome-panel-launcher
+Icon[en_US]=gnome-panel-launcher
+Name=Paros Proxy
+Name[en_US]=Paros Proxy
+Terminal=false
+Type=Application
+Version=1.0
