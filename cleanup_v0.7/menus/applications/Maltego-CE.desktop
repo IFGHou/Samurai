@@ -1,23 +1,13 @@
 [Desktop Entry]
 Categories=;
 Comment=Maltego CE
-Comment[en]=Maltego CE
 Encoding=UTF-8
 Exec=/home/samurai/tools/maltego.sh
 GenericName=
-GenericName[en]=
 Hidden=false
-Icon=/usr/bin/samurai/Maltego/v2.0.2CE/res/Icon32.png
+Icon=/home/samurai/icons/maltego-icon.png
 MimeType=
 Name=Maltego CE
-Name[en]=Maltego CE
 Path=/usr/bin/samurai/Maltego/v2.0.2CE/bin
-ServiceTypes=
-SwallowExec=
-SwallowTitle=
-Terminal=false
-TerminalOptions=
-Type=Application
-URL=
 X-KDE-SubstituteUID=false
 X-KDE-Username=root

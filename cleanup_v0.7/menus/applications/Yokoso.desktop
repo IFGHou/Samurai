@@ -1,13 +1,10 @@
-
 [Desktop Entry]
 Categories=;
 Encoding=UTF-8
 Hidden=false
 Name=Yokoso
-Name[en_US]=Yokoso
 Terminal=false
 Type=Application
 Version=1.0
-Icon[en_US]=gnome-terminal
 Icon=gnome-terminal
 Exec=gnome-terminal --window-with-profile=Yokoso

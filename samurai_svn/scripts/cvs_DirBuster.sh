@@ -2,9 +2,13 @@
 
 # Template to add new update scripts from CVS for a specific tool
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
-# Version: 0.1
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    December 2009
+# Version: 0.2
+#
+# Changelog:
+# 0.2 - Added checks due to its EXPERIMENTAL state
+#
 #
 # Usage:
 # 0. Copy this template to /usr/bin/samurai_svn/scripts as cvs_TOOL-NAME.sh,
@@ -36,6 +40,16 @@ DIR=/usr/bin/samurai_svn
 # CVS update script
 CVS_UPDATE=$DIR/bin/cvs_update.sh
 
+# EXPERIMENTAL
+echo "*** The SVN/CVS update for $TOOL is EXPERIMENTAL! ***"
+echo
+echo "*** It is NOT recommended to update $TOOL from SVN/CVS"
+echo -n "*** at this point. Do you want to continue (yes/no)? " 
+read answer
+echo
+
+if [ ":yes:" == ":$answer:" ]; then
+
 # Launch the update
 $CVS_UPDATE $TOOL $CVS
 
@@ -48,3 +62,7 @@ if [ $? = 0 ]; then
 	echo "*** javac (JDK) required but not found on Samurai v0.7"
 fi
 
+else
+	echo "*** No changes applied. Press any key to exit."
+	read key
+fi # EXPERIMENTAL

@@ -3,10 +3,8 @@ Categories=;
 Encoding=UTF-8
 Exec=gnome-terminal --window-with-profile=SQLmap
 Hidden=false
-Icon=gnome-brightness-applet
-Icon[en_US]=gnome-brightness-applet
+Icon=/home/samurai/icons/sqlmap-icon.png
 Name=SQLmap
-Name[en_US]=SQLmap
 Terminal=true
 Type=Application
 Version=1.0

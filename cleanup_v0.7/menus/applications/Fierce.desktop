@@ -1,13 +1,10 @@
-
 [Desktop Entry]
 Categories=;
 Encoding=UTF-8
 Hidden=false
 Name=Fierce Domain Scanner
-Name[en_US]=Fierce Domain Scanner
 Terminal=false
 Type=Application
 Version=1.0
-Icon[en_US]=gnome-terminal
-Icon=gnome-terminal
+Icon=/home/samurai/icons/fierce-icon.png
 Exec=gnome-terminal --window-with-profile=Fierce

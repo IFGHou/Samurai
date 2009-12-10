@@ -4,8 +4,8 @@
 #
 # NOTE: Run this script with root privileges using "sudo"
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    October 2009
 # Version: 0.1
 #
 
@@ -20,4 +20,7 @@ LOCALDIR=cleanup_v0.7
 
 # Clean up the Applications menus
 ./$LOCALDIR/cleanup_v0.7_Applications_menus.sh
+
+# Clean up the web server tools and Firefox menus
+./$LOCALDIR/cleanup_v0.7_web-server-tools_firefox-bmarks.sh
 

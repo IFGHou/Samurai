@@ -1,13 +1,10 @@
-
 [Desktop Entry]
 Categories=;
 Encoding=UTF-8
 Exec=gnome-terminal --window-with-profile=RatProxy
 Hidden=false
 Name=RatProxy
-Name[en_US]=RatProxy
 Terminal=true
 Type=Application
 Version=1.0
-Icon[en_US]=tracker
-Icon=tracker
+Icon=/home/samurai/icons/ratproxy-icon.png

@@ -13,6 +13,9 @@
                         <Filename>cvs_webscarab.desktop</Filename>
                 </Include>
                 <Include>
+                        <Filename>svn_BrowserRider.desktop</Filename>
+                </Include>
+                <Include>
                         <Filename>svn_durzosploit.desktop</Filename>
                 </Include>
                 <Include>
@@ -26,6 +29,9 @@
                 </Include>
                 <Include>
                         <Filename>svn_Nikto_2.desktop</Filename>
+                </Include>
+                <Include>
+                        <Filename>svn_phpshell.desktop</Filename>
                 </Include>
                 <Include>
                         <Filename>svn_proxystrike.desktop</Filename>
@@ -47,6 +53,9 @@
                 </Include>
                 <Include>
                         <Filename>svn_yokoso.desktop</Filename>
+                </Include>
+                <Include>
+                        <Filename>svn_nmap.desktop</Filename>
                 </Include>
                 <Include>
                         <Filename>svn_update_all.desktop</Filename>
@@ -62,11 +71,13 @@
                         <Filename>cvs_DirBuster.desktop</Filename>
                         <Filename>cvs_paros.desktop</Filename>
                         <Filename>cvs_webscarab.desktop</Filename>
+                        <Filename>svn_BrowserRider.desktop</Filename>
                         <Filename>svn_durzosploit.desktop</Filename>
                         <Filename>svn_Grendel-Scan.desktop</Filename>
                         <Filename>svn_jbrofuzz.desktop</Filename>
                         <Filename>svn_laudanum.desktop</Filename>
                         <Filename>svn_Nikto_2.desktop</Filename>
+                        <Filename>svn_phpshell.desktop</Filename>
                         <Filename>svn_proxystrike.desktop</Filename>
                         <Filename>svn_ratproxy.desktop</Filename>
                         <Filename>svn_reconnoiter.desktop</Filename>
@@ -74,6 +85,8 @@
                         <Filename>svn_w3af.desktop</Filename>
                         <Filename>svn_wapiti.desktop</Filename>
                         <Filename>svn_yokoso.desktop</Filename>
+                        <Separator/>
+                        <Filename>svn_nmap.desktop</Filename>
                         <Separator/>
                         <Filename>svn_update_all.desktop</Filename>
                         <Separator/>

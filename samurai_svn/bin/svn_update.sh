@@ -6,14 +6,19 @@
 # previous version (in case the SVN version is not stable enough and
 # you want to restore to the previous stable version).
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
-# Version: 0.1
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    November 2009
+# Version: 0.2
+#
+# Changelog: 
+# 0.2 - Added new capabilities to update web server tools from SVN/CVS
+#	Specify a thrid argumnet (web) for this purpose
 #
 # Usage:
 # This script expects two arguments:
 # $1 = Tool name
 # $2 = SVN repository for the tool
+# [$3] = web (use the web server directory vs. Samurai tools directory)
 #
 
 # Main dir
@@ -21,6 +26,9 @@ DIR=/usr/bin/samurai_svn
 
 # Samurai dir
 SAMURAI_DIR=/usr/bin/samurai
+
+# Samurai web server dir
+WEBSERVER_DIR=/var/www
 
 # Logging directory
 LOGDIR=$DIR/log
@@ -67,6 +75,11 @@ echo -n "This script will update $TOOL to the latest version from the official S
 echo -n "Update from SVN [U], Update from SVN & Backup the current version [B], or Cancel [C])? "
 read answer
 echo
+
+# Check if the tools is a normal tool or a web server tool
+if [ ":web:" == ":$3:" ]; then
+	SAMURAI_DIR=$WEBSERVER_DIR
+fi
 
 # Check if the directory for the tool exists
 if [ ! -d $SAMURAI_DIR/$TOOL ]; then

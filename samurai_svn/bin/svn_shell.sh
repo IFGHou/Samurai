@@ -3,8 +3,8 @@
 # Script to set the PATH variable to the backup directory of the specific tool
 # received as the first argument or to all tools available in the backup directory
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    October 2009
 # Version: 0.1
 #
 

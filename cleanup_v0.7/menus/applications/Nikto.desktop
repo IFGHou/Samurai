@@ -3,10 +3,8 @@ Categories=;
 Encoding=UTF-8
 Exec=gnome-terminal --window-with-profile=Nikto
 Hidden=false
-Icon=gnome-panel-launcher
-Icon[en_US]=gnome-panel-launcher
+Icon=/home/samurai/icons/nikto-icon.png
 Name=Nikto
-Name[en_US]=Nikto
 Terminal=false
 Type=Application
 Version=1.0

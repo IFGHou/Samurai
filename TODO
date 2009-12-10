@@ -1,0 +1,43 @@
+
+TO DO LIST - SVN revision 3
+----------------------------
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    December 2009
+# Version: 0.3
+
+
++ cleanup_v0.7:
+
+- Find a way to refresh the gnome-terminal profiles without login out
+- Add individual icons per tool to the Samurai menu
+- Review and simplify the Firefox bookmarks install process, where the 
+  bookmarks file has to be added for the favicons to be populated
+- Add gnome-terminal profile for w3af (console)
+
+
++ samurai_svn:
+
+- Add individual icons per tool to the Samurai SVN menu
+- Add a switch to avoid updating experimental tools from svn_update_all.sh
+
+
++ samurai_setup:
+
+- Fix the apt-get issue to be able to install multiple packages from file
+  inside a loop (it forces an exit from the while loop). Fix:
+  install_repository_tools.sh
+- Add automatic file editing capabilities to the install.sh script to be 
+  able to edit the Applications menu, the list of gnome-terminal profiles,
+  and the SVN menu 
+- Update & Compile the latest Grendel-Scan version from SVN
+- Update & Install all Firefox add-ons from the Samurai-WTF collection
+  Remove old ones and install the whole addons collection
+- Add a BrowserRider test page to the Firefox bookmarks after including the required BrowserRider rewrite rules in Apache
+- Improve the process to add a new PATH entry into .bashrc - Edit the last entry by samurai_setup and update the values
+- Edit files to add the msf3 integration with BeEF (xmlrpc)
+
+
++ samurai_version:
+
+- N/A
+
