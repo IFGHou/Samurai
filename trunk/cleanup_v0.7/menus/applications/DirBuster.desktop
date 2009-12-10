@@ -1,14 +1,10 @@
-#!/usr/bin/env xdg-open
-
 [Desktop Entry]
 Categories=;
 Encoding=UTF-8
 Exec=/home/samurai/tools/DirBuster.sh
 Hidden=false
-Icon=gnome-panel-launcher
-Icon[en_US]=gnome-panel-launcher
+Icon=/home/samurai/icons/dirbuster-icon.png
 Name=DirBuster
-Name[en_US]=DirBuster
 Terminal=false
 Type=Application
 Version=1.0

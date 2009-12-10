@@ -4,9 +4,13 @@
 #
 # NOTE: Run this script with root privileges using "sudo"
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
-# Version: 0.1
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    December 2009
+# Version: 0.2
+#
+# Changelog:
+# 0.2 - Restore ownershipt to samurai:samurai for the applications.menu file
+#       and the backup file
 #
 
 # Main dir
@@ -63,6 +67,9 @@ cat $LOCALMENUS/applications.menu.samurai_svn >> $TEMP_MENU
 
 cp -pf $CURRENT_MENU $CURRENT_MENU.backup_svn
 mv $TEMP_MENU $CURRENT_MENU
+
+# Restore ownership for applications.menu and the backup file
+chown samurai:samurai $CURRENT_MENU*
 
 echo "Adding $DIR/bin to the samurai PATH variable..."
 BASHRC=/home/samurai/.bashrc

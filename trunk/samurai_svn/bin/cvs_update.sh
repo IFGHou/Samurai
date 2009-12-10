@@ -7,8 +7,8 @@
 # previous version (in case the CVS version is not stable enough and
 # you want to restore to the previous stable version).
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    October 2009
 # Version: 0.1
 #
 # Usage:

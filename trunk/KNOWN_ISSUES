@@ -1,0 +1,82 @@
+================
+* KNOWN ISSUES *
+================
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    December 2009
+# Version: 0.3
+
++ INDEX:
+---------
+- Updating Nikto from SVN
+- Updating Metasploit from SVN
+- Enabling WiFi modules (lorcon2) in Metasploit
+
+
+- Updating Nikto from SVN:
+---------------------------
+
+When nikto is updated from SVN you will get a digital certificate warning, as the CA certificate used by Assembla is not recognized by Samurai. Accept the certificate temporarily if it matches the fingerprint below:
+
+ - Fingerprint: b9:5b:52:d7:c7:76:db:89:9c:fb:0f:21:77:2c:e6:59:75:05:bf:8a
+
+Example.-
+
+This script will update Nikto_2 to the latest version from the official SVN repository. What do you want to do (Update from SVN [U], Update from SVN & Backup the current version [B], or Cancel [C])? B
+
+*** Creating a backup copy of Nikto_2 under /usr/bin/samurai_svn/svn_backup/Nikto_2...
+
+*** Updating your current Nikto_2 installation...
+Error validating server certificate for 'https://svn2.assembla.com:443':
+ - The certificate is not issued by a trusted authority. Use the
+   fingerprint to validate the certificate manually!
+Certificate information:
+ - Hostname: *.assembla.com
+ - Valid: from Wed, 08 Apr 2009 09:15:52 GMT until Thu, 08 Apr 2010 02:45:31 GMT
+ - Issuer: 07969287, http://certificates.godaddy.com/repository, GoDaddy.com, Inc., Scottsdale, Arizona, US
+ - Fingerprint: b9:5b:52:d7:c7:76:db:89:9c:fb:0f:21:77:2c:e6:59:75:05:bf:8a
+(R)eject, accept (t)emporarily or accept (p)ermanently? t
+...
+
+- Updating Metasploit from SVN:
+--------------------------------
+
+A similar situation is presented when Metasploit is updated from SVN, but in this case, the fingerprint is:
+
+ - Fingerprint: 20:a7:2e:df:6d:53:10:6c:dc:2a:ca:33:fd:35:76:2c:0e:62:b1:4d
+
+Certificate details:
+
+Error validating server certificate for 'https://www.metasploit.com:443':
+ - The certificate is not issued by a trusted authority. Use the
+   fingerprint to validate the certificate manually!
+Certificate information:
+ - Hostname: metasploit.com
+ - Valid: from Sun, 01 Apr 2007 22:02:24 GMT until Thu, 01 Apr 2010 22:02:24 GMT
+ - Issuer: 07969287, http://certificates.godaddy.com/repository, GoDaddy.com, Inc., Scottsdale, Arizona, US
+ - Fingerprint: 20:a7:2e:df:6d:53:10:6c:dc:2a:ca:33:fd:35:76:2c:0e:62:b1:4d
+(R)eject, accept (t)emporarily or accept (p)ermanently? t
+
+
+- Enabling WiFi modules (lorcon2) in Metasploit:
+------------------------------------------------
+
+A similar situation is presented when the Metasploit WiFi modules (based on lorcon2) are updated from SVN, but in this case, the fingerprint is:
+
+ - Fingerprint: 3e:14:c1:b0:b5:e9:cc:fa:9f:16:4e:27:e6:a2:dc:b4:12:2b:bd:78
+
+Certificate details:
+
+Error validating server certificate for 'https://802.11ninja.net:443':
+ - The certificate is not issued by a trusted authority. Use the
+   fingerprint to validate the certificate manually!
+ - The certificate hostname does not match.
+ - The certificate has expired.
+Certificate information:
+ - Hostname: localhost
+ - Valid: from Tue, 20 Mar 2007 14:16:21 GMT until Wed, 19 Mar 2008 14:16:21 GMT
+ - Issuer: For testing purposes only, Apache HTTP Server
+ - Fingerprint: 3e:14:c1:b0:b5:e9:cc:fa:9f:16:4e:27:e6:a2:dc:b4:12:2b:bd:78
+(R)eject, accept (t)emporarily or accept (p)ermanently? t
+
+
+

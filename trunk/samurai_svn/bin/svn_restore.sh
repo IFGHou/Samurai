@@ -4,9 +4,14 @@
 # from its SVN (or CVS) repository (only works if you selected the option to
 # create a backup copy).
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
-# Version: 0.1
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    December 2009
+# Version: 0.3
+#
+# Changelog:
+# 0.3 - Fixed checking of previous backup directory (SVN or original, not
+#       from SVN) - Thanks to Michael McLaurin
+# 0.2 - Added new check for the existence of the backup directory
 #
 # Usage:
 # This script expects one argument:
@@ -31,7 +36,7 @@ TOOL=$1
 if [ "::" == ":$TOOL:" ]; then
 	echo "*** Warning: You need to specify the tool name as an argument"
 	echo "    Usage:"
-	echo "    svn_restore.sh <tool-name>"
+	echo "    ./svn_restore.sh <tool-name>"
 	exit 1
 fi
 
@@ -46,16 +51,29 @@ if [ ! -d $SAMURAI_DIR/$TOOL ]; then
         exit 1
 fi
 
+# Check if the backup directory for the tool exists
+if [ ! -d $BACKUP_DIR/$TOOL ]; then
+    if [ ! -d $BACKUP_DIR/$TOOL.original ]; then
+        echo "*** The backup directory tool name ($BACKUP_DIR/$TOOL) does not exist. It seems a backup was not made previously. Nothing to restore. Aborting!"
+        exit 1
+    fi
+fi
+
 if [ ":R:" == ":$answer:" ]; then
 	# Restore the tool from the backup copy
-	echo "*** Restoring the previous $TOOL installation from backup..."
 
 	# Check if the backup is available before deleting the current copy
 	if [ -d $BACKUP_DIR/$TOOL ]; then
 		# echo "--- Deleting the current $TOOL installation..."
+		echo "*** Restoring the previous $TOOL installation from a SVN backup..."
 		rm -rf $SAMURAI_DIR/$TOOL 
+		cp -prf $BACKUP_DIR/$TOOL/ $SAMURAI_DIR/$TOOL 
+	elif [ -d $BACKUP_DIR/$TOOL.original ]; then
+                # echo "--- Deleting the current $TOOL installation..."
+		echo "*** Restoring the previous $TOOL installation from the original (non-SVN) backup..."
+                rm -rf $SAMURAI_DIR/$TOOL
+                cp -prf $BACKUP_DIR/$TOOL.original/ $SAMURAI_DIR/$TOOL
 	fi
-	cp -prf $BACKUP_DIR/$TOOL/ $SAMURAI_DIR/$TOOL 
 
 	# This script does not remove the backup copy
 

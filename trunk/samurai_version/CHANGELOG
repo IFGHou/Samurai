@@ -1,0 +1,110 @@
+Samurai Web Testing Framework CHANGELOG
+--------------------------------------------------------
+v0.7 + SVN revision 3 - 12/09/2009 (IBWAS'09)
+--------------------------------------------------------
+Updated README
+Updated beef to v0.4.0 - Raul Siles
+Installed msf3 v.3.3.1 - Raul Siles
+Installed sqlninja patch 0.2.3-r1p - Raul Siles
+Added new menu icons directory (/home/samurai/icons) - Raul Siles
+Added new SVN update infrastructure (/usr/bin/samurai_svn) - Raul Siles
+	Including the new "Samurai SVN" menu
+Updated Firefox bookmarks - Raul Siles
+Added new file with the listof available tools - Raul Siles
+	At: /usr/bin/samurai/tools.txt
+Clean-up of Samurai-WTF 0.7 in preparation for SVN - Raul Siles
+	Including: /usr/bin/samurai, /home/samurai/tools, Applications menus,
+	web server tools (/var/www), and Firefox bookmarks
+--------------------------------------------------------
+v0.7 08/01/2009
+--------------------------------------------------------
+Installed Cewl from dijininja.org -- Kevin Johnson
+Updated Ubunutu patches as of July 23, 2009 -- Frank DiMaggio
+Updated w3af from SVN as of July 25, 2009 -- Kevin Johnson
+Fixed sqlninja.sh -- Frank DiMaggio
+Fixed sqlmap.sh to include the -h -- Kevin Johnson for Tim Medin
+Updated sqlmap to 0.7 -- Frank DiMaggio and Kevin Johnson
+Updated Firefox add-on Hackbar -- Kevin Johnson
+Updated Firefox add-on XSS Me -- Kevin Johnson
+Updated Firefox add-on Header Spy -- Kevin Johnson
+Updated Firefox add-on User Agent Switcher -- Kevin Johnson
+Updated jBroFuzz to 1.4 -- Kevin Johnson
+Upgrade nmap to 5.0 -- Kevin Johnson
+Installed Durzosploit from SVN as of July 18, 2009 -- Kevin Johnson
+Installed BrowserRider from SVN as of July 18, 2009 -- Frank DiMaggio
+Added Jason Wood's username generator scripts -- Kevin Johnson
+Updated MaltegoCE to 2.02 -- Frank DiMaggio
+Added Laudanum Files -- Kevin Johnson
+Added GPScan.rb from dijininja.org -- Kevin Johnson
+Added HowTo videos from Pauldotcom -- Kevin Johnson
+--------------------------------------------------------
+v0.6 05/16/2009
+--------------------------------------------------------
+Updated README -- Kevin Johnson
+Added Keyboard Layout to top menu -- Kevin Johnson
+Ubuntu Security updates as of May 15 -- Kevin Johnson
+Udated w3af from SVN as of May 15 -- Kevin Johnson
+Added BeEF module for quicktime detection -- Kevin Johnson
+Added BeEF module for unsafe activeX -- Kevin Johnson
+Added BeEF module to exploit CVE 2009_1169 -- Kevin Johnson
+Added BeEF module to exploit the Chrome DoS -- Kevin Johnson
+Added BeEF module for VM detection -- Kevin Johnson
+Removed extraneous Places menu options -- Kevin Johnson
+Upodated SQL Inject Me -- Kevin Johnson
+Updated Access Me -- Kevin Johnson
+Updated and moved nikto -- Kevin Johnson
+Increased max heap size on Java applications -- Kevin Johnson
+Removed HTTP_Print -- Kevin Johnson
+Fixed SQLMap -- Kevin Johnson
+Fixed SQLNinja -- Kevin Johnson
+Fixed the Moinmoin wiki -- Justin Searle
+--------------------------------------------------------
+v0.5 05/01/2009
+--------------------------------------------------------
+Upgraded to Ubuntu 9.04 -- Kevin Johnson
+Upgraded w3af from SVN as of May 1, 2009 -- Kevin Johnson
+Upgraded XSS Me -- Kevin Johnson
+Upgraded Access Me -- Kevin Johnson
+Upgraded SQL Inject Me -- Kevin Johnson
+Upgraded Header Spy -- Kevin Johnson
+Installed sqlmap -- Kevin Johnson
+Installed SQLninja -- Kevin Johnson
+Added links to irongeek -- Kevin Johnson
+--------------------------------------------------------
+v0.4.1 02/25/2009
+--------------------------------------------------------
+Upgraded W3af to SVN -- Kevin Johnson
+Upgraded BeEF -- Kevin Johnson
+Added modules to BeEF -- Kevin Johnson
+--------------------------------------------------------
+v0.4 02/01/2009
+--------------------------------------------------------
+Upgraded Ubuntu -- Kevin Johnson
+Changed minor display settings -- Kevin
+Upgraded w3af to SVN version as of 02-01-09 -- Kevin Johnson
+Upgraded Burp Suite to 1.2 -- Kevin Johnson
+Added XSS Me -- Kevin Johnson
+Added SQL Inject Me -- Kevin Johnson
+Added Access Me -- Kevin Johnson
+--------------------------------------------------------
+v0.3 10/12/2008
+--------------------------------------------------------
+Upgrade w3af to SVN version as of 10-11-08 -- Kevin Johnson
+Upgraded Grendel-Scan to 1.0 -- Kevin Johnson
+Added JBroFuzz -- Kevin Johnson
+Added Friends of SamuraiWTF Bookmarks -- Kevin Johnson
+Added Grendel-Scan to SwitchProxy -- Kevin Johnson
+--------------------------------------------------------
+
+v0.2 09/29/2008
+--------------------------------------------------------
+Added sound effects -- Larry Pesce
+Changed domain name -- Kevin Johnson
+Fixed Paros -- Kevin Johnson
+Fixed ratproxy ssl support -- Kevin Johnson
+Fixed background -- Kevin Johnson
+--------------------------------------------------------
+
+v0.1 08/10/2008
+--------------------------------------------------------
+Initial Developer Release

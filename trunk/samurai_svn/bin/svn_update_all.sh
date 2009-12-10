@@ -2,8 +2,8 @@
 
 # Script to update ALL Samurai tools from their SVN (or CVS) repositories.
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    October 2009
 # Version: 0.1
 #
 

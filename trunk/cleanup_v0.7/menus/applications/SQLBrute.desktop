@@ -3,10 +3,8 @@ Categories=;
 Encoding=UTF-8
 Exec=gnome-terminal --window-with-profile=SQLBrute
 Hidden=false
-Icon=gnome-brightness-applet
-Icon[en_US]=gnome-brightness-applet
+Icon=/home/samurai/icons/sqlbrute-icon.png
 Name=SQLBrute
-Name[en_US]=SQLBrute
 Terminal=false
 Type=Application
 Version=1.0

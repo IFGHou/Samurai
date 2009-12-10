@@ -1,14 +1,10 @@
-#!/usr/bin/env xdg-open
-
 [Desktop Entry]
 Categories=;
 Encoding=UTF-8
 Exec=/home/samurai/tools/webscarab.sh
 Hidden=false
-Icon=gnome-panel-launcher
-Icon[en_US]=gnome-panel-launcher
+Icon=/home/samurai/icons/webscarab.png
 Name=WebScarab
-Name[en_US]=WebScarab
 Terminal=false
 Type=Application
 Version=1.0

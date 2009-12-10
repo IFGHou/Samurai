@@ -5,8 +5,8 @@
 #
 # NOTE: Run this script with root privileges using "sudo"
 #
-# Author: Raul Siles (raul _AT_ raulsiles _DOT_ com)
-# Date: October 2009
+# Author:  Raul Siles (raul _AT_ raulsiles _DOT_ com) - Taddong
+# Date:    October 2009
 # Version: 0.1
 #
 
