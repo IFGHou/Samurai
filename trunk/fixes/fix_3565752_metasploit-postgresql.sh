@@ -9,4 +9,4 @@ chmod 755 /etc/init.d/metasploit-postgresql
 
 update-rc.d metasploit-postgresql defaults > /dev/null 2>&1
 
-echo "    [***] This fix ($0) requires to reboot the system."
+/etc/init.d/metasploit-postgresql restart > /dev/null 2>&1
