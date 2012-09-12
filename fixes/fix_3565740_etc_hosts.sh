@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cp /etc/hosts /etc/hosts.backup
+DATE=$(date +%F_%R:%S | sed 's/://g')
+
+cp /etc/hosts /etc/hosts.backup.$DATE
 cp /etc/hosts.samurai /etc/hosts
 
 HOSTNAME=$(hostname)
