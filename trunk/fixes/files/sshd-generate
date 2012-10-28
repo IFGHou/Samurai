@@ -1,0 +1,17 @@
+#!/usr/bin/python
+# copied from Backtrack Linux distro
+# Modified to acommodate SamuraiWTF changes
+
+import os
+import datetime
+
+now = datetime.datetime.now()
+date = now.strftime("%Y-%m-%d_%H%M%S")
+
+os.system("mv /etc/ssh/ssh_host_ecdsa_key /etc/ssh/ssh_host_ecdsa_key.backup."+date)
+os.system("mv /etc/ssh/ssh_host_ecdsa_key.pub /etc/ssh/ssh_host_ecdsa_key.pub.backup."+date)
+
+os.system("ssh-keygen -f /etc/ssh/ssh_host_ecdsa_key -N \'\' -t ecdsa")
+os.system("ssh-keygen -f /etc/ssh/ssh_host_key -N \'\' -t rsa1")
+os.system("ssh-keygen -f /etc/ssh/ssh_host_rsa_key -N \'\' -t rsa")
+os.system("ssh-keygen -f /etc/ssh/ssh_host_dsa_key -N \'\' -t dsa")
