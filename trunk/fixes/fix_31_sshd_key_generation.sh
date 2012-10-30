@@ -5,6 +5,7 @@ DATE=$(date +%F_%R:%S | sed 's/://g')
 
 # copies the sshd-generate
 cp $FILES/sshd-generate /usr/bin/sshd-generate
+chmod 755 /usr/bin/sshd-generate
 
 # copies modified samurai that creates new SSH keys
 # during boot time for Live Environments
